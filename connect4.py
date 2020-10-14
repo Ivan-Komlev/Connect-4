@@ -39,7 +39,7 @@ def printMapElement(r,c):
     elif map[r][c]==-1:
         cprint("><", 'white', "on_red", end="");
     elif map[r][c]==-2:
-        cprint("><", 'white', "on_green", end="");
+        cprint("><", 'black', "on_green", end="");
     else:
         cprint("  ", 'blue', bgColor, end="");
     
@@ -206,7 +206,7 @@ def rules():
 
     print("Type 'q' to exit the game.")
 
-def promter():
+def prompter():
     turn=1
 
     #Rules
@@ -263,12 +263,9 @@ def promter():
             rules()
             print()
         
-        
-row=findAvalableRow(1)
-
 drawTheBoard(rows, columns)
 rules()
 print()
-promter()
+prompter()
 
 print("        Bye.")
