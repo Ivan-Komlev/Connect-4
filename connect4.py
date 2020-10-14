@@ -2,6 +2,8 @@
 Have you ever played "Connect 4"? It's a popular kid's game by the Hasbro company. In this project, your task is create a Connect 4 game in Python.
 Before you get started, please watch this video on the rules of Connect 4:
 
+https://youtu.be/utXzIFEVPjA
+
 Author: Ivan Komlev
 Date: 2020-10-14
 GitHub: https://github.com/Ivan-Komlev/Connect-4
